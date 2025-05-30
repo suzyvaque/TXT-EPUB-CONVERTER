@@ -1,4 +1,4 @@
-## TXT Converter
+## 🔌 TXT Converter
 
 Converts a partially formatted txt to a clean version txt and a fully formatted epub.
 
@@ -35,7 +35,7 @@ Converts a partially formatted txt to a clean version txt and a fully formatted 
 
 ...
 
-### Guideline
+## ✔️ Getting Started
 
 1. Download [Calibre](https://calibre-ebook.com/download), used to convert .html to .epub via ebook-convert. After download and installation, it should be accessible at `C:/Program Files/Calibre2/ebook-convert.exe`.
 
