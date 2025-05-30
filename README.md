@@ -1,8 +1,11 @@
-### TXT Converter
+## TXT Converter
 
 Converts a partially formatted txt to a clean version txt and a fully formatted epub.
 
-Supported Input File Format:
+### File Structure
+
+**Supported Input File Format:**
+
 📄 어떤 책 1.txt  
 📄 어떤 책 2.txt  
 📄 어떤 책 3.txt  
@@ -10,18 +13,26 @@ Supported Input File Format:
 
 ↓
 
-Output Directory Structure:
+**Output Directory Structure:**
 
 📁 clean_txt/
+
 ├── [저자명] 어떤 책 1권.txt
+
 ├── [저자명] 어떤 책 2권.txt
+
 ├── [저자명] 어떤 책 3권.txt
+
 ...
 
 📁 clean_epub/
+
 ├── [저자명] 어떤 책 1권.epub
+
 ├── [저자명] 어떤 책 2권.epub
+
 ├── [저자명] 어떤 책 3권.epub
+
 ...
 
 ### Guideline
