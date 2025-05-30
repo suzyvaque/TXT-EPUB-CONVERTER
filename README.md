@@ -39,7 +39,7 @@ Converts a partially formatted txt to a clean version txt and a fully formatted 
 
 1. Download [Calibre](https://calibre-ebook.com/download), used to convert .html to .epub via ebook-convert. After download and installation, it should be accessible at `C:/Program Files/Calibre2/ebook-convert.exe`.
 
-2. Place raw `.txt` files in the root folder with names like:
+2. Place raw `.txt` files in the `input` folder with names like:
    - `어떤 책 1.txt`
    - `어떤 책 2.txt`
 

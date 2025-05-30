@@ -18,11 +18,12 @@ def strip_html_tags(text: str) -> str:
     return re.sub(r'<[^>]+>', '', text)
 
 def strip_html_from_txt(name, author, nums):
-    output_dir = 'clean_txt'
+    input_dir = '../input'
+    output_dir = '../output/clean_txt'
     os.makedirs(output_dir, exist_ok=True)
 
     for num in nums:
-        input_file = f'{name} {num}.txt'
+        input_file = f'{input_dir}/{name} {num}.txt'
         output_file = f'{output_dir}/[{author}] {name} {num}권.txt'
 
         if not os.path.exists(input_file):

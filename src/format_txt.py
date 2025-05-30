@@ -30,10 +30,11 @@ def fix_unclosed_tags(text: str) -> str:
 
 
 def format_txt(name, author, nums):
-    output_dir = 'formatted_txt'
+    input_dir = '../input'
+    output_dir = '../input/formatted_txt'
     os.makedirs(output_dir, exist_ok=True)
     for num in nums:
-        input_file = f'{name} {num}.txt'
+        input_file = f'{input_dir}/{name} {num}.txt'
         output_file = f'{output_dir}/[{author}] {name} {num}권.txt'
 
         with open(input_file, 'r', encoding='utf-8') as f:
