@@ -13,8 +13,8 @@ def remove_pycache(root_dir='.'):
                 print(f"🗑️ Removed: {pycache_path}")
 
 def convert_txt_to_epub(name, author, nums, cover_image=''):
-    input_dir = '../input/formatted_txt'
-    output_dir = '../output/clean_epub'
+    input_dir = 'input/formatted_txt'
+    output_dir = 'output/clean_epub'
     os.makedirs(output_dir, exist_ok=True)
     for num in nums:
         txt_file = f'{input_dir}/[{author}] {name} {num}권.txt'

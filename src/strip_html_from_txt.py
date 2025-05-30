@@ -18,8 +18,8 @@ def strip_html_tags(text: str) -> str:
     return re.sub(r'<[^>]+>', '', text)
 
 def strip_html_from_txt(name, author, nums):
-    input_dir = '../input'
-    output_dir = '../output/clean_txt'
+    input_dir = 'input'
+    output_dir = 'output/clean_txt'
     os.makedirs(output_dir, exist_ok=True)
 
     for num in nums:

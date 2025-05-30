@@ -2,13 +2,17 @@
 
 Converts a partially formatted txt to a clean version txt and a fully formatted epub.
 
+-----
+
 ### File Structure
 
 **Supported Input File Format:**
 
-📄 어떤 책 1.txt  
-📄 어떤 책 2.txt  
-📄 어떤 책 3.txt  
+📁 input/
+
+├── 어떤 책 1.txt
+
+├── 어떤 책 2.txt
 ...
 
 ↓
@@ -21,8 +25,6 @@ Converts a partially formatted txt to a clean version txt and a fully formatted 
 
 ├── [저자명] 어떤 책 2권.txt
 
-├── [저자명] 어떤 책 3권.txt
-
 ...
 
 📁 clean_epub/
@@ -31,9 +33,9 @@ Converts a partially formatted txt to a clean version txt and a fully formatted 
 
 ├── [저자명] 어떤 책 2권.epub
 
-├── [저자명] 어떤 책 3권.epub
-
 ...
+
+-----
 
 ## ✔️ Getting Started
 
@@ -43,6 +45,6 @@ Converts a partially formatted txt to a clean version txt and a fully formatted 
    - `어떤 책 1.txt`
    - `어떤 책 2.txt`
 
-3. Run `python txt_handler.py` in terminal.
+3. Run `python run.py` in terminal.
 
 4. Type in information in terminal.

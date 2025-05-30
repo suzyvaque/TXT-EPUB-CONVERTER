@@ -1,6 +1,6 @@
-from format_txt import format_txt
-from strip_html_from_txt import strip_html_from_txt
-from convert_txt_to_epub import convert_txt_to_epub
+from src.format_txt import format_txt
+from src.strip_html_from_txt import strip_html_from_txt
+from src.convert_txt_to_epub import convert_txt_to_epub
 
 
 
